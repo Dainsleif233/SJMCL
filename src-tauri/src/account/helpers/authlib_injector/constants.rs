@@ -2,10 +2,11 @@ pub static PRESET_AUTH_SERVERS: [&str; 2] = [
   "https://skin.mc.sjtu.cn/api/yggdrasil",
   "https://skin.mualliance.ltd/api/yggdrasil",
 ];
-pub static CLIENT_IDS: [(&str, &str); 3] = [
+pub static CLIENT_IDS: [(&str, &str); 4] = [
   ("skin.mc.sjtu.cn", "6"),
   ("skin.mualliance.ltd", "27"),
   ("littleskin.cn", "1014"),
+  ("skin.jsumc.fun", "2"),
 ];
 pub static SCOPE: &str =
   "openid offline_access Yggdrasil.PlayerProfiles.Select Yggdrasil.Server.Join";
